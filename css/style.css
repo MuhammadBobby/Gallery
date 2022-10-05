@@ -127,3 +127,21 @@ h2 {
 .container .box:hover .content p {
   transform: translateY(0px);
 }
+
+/* gallery */
+.card {
+  max-width: 400px;
+  background-color: crimson;
+}
+
+.card:hover {
+  transform: scale(1.18);
+  z-index: 99;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.card-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+}
